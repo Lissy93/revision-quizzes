@@ -1,0 +1,23 @@
+
+body{
+    background: url('../img/bg.png');
+}
+
+h1, h2, p{
+    font-family: 'Varela Round', sans-serif;
+}
+
+input, textarea, button{
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+input, label, p{
+    display: inline-block;
+}
+
+button{
+    width: 130px;
+    height: 40px;
+}
