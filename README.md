@@ -9,7 +9,7 @@
   </a>
 </p>
 
-## About
+## About 💁
 
 An interactive and social revision and teaching tool. Create, share and take quizzes, and compete against your class mates with the high scores league.
 
@@ -19,40 +19,51 @@ Whether you are a student, teacher, or just looking for a fun way to revise, rev
 
 ---
 
-## Deprication
+## Deprication ⚠️
 
-> **Note**
-> **This app is no longer maintained.**<br>
+> **Warning**
+> **This project is no longer maintained.**<br>
 > It is recommend not to use the app, nor any of the code.
 
-I built this while at school, I used it to revise with my mates, then extnded the app and used it as my GCSE Computing Coursewrok.
-If you want to have a laugh about how ameter it was - [here's the final report](https://github.com/Lissy93/revision-quizzes/blob/master/F454%20Coursework%20-%20Revision%20Quizzes%20-%20Alicia%20Sykes%206063.pdf).
+I built this for fun, while I was at school. The aim was to make revision more interactive and social.
 
-There are now much better quiz apps available, so I strongly recommend against using this project. 
-
-Oh, and if you throught it looked narley, then you should have seen the original version! Here's some screenshots - it's absolutley horensous!!
+With heindsight and a decade later, I can safely say that the code is really quite awful. And since there's now much better quiz apps available, I am depricating and archiving this project.
 
 <details>
 
-<summary>Original Sceenshots</summary>
+<summary><h4>Sceenshots</h4> 🖼️</summary>
 
-![screenshots](https://i.ibb.co/kGJMjqp/revision-quizzes-old-secreenshots.png)
+There's a reason that I'm not a UI designer...
+
+![screenshots](https://i.ibb.co/5chGnsH/revision-quizzes-old-secreenshots.png)
+
+The updated version wasn't much better:
+
+![screenshots - updated](https://i.ibb.co/fqZPRR4/revision-quizzes-secreenshots.png)
+
+</details>
+
+<details>
+<summary><h4>Coursework 🍎</h4></summary>
+
+Later, I extended the project a bit, and used it as part of my GCSE Computing Cousework.
+[Here's my write up](https://github.com/Lissy93/revision-quizzes/raw/master/F454%20Coursework%20-%20Revision%20Quizzes%20-%20Alicia%20Sykes%206063.pdf) that I submitted.
 
 </details>
 
 ---
 
-## Deployment
-It's a static PHP site. Just setup LAMP, upload the content of this repo to the www directory, then create a MySQL database, importing the [SQL backup](https://github.com/Lissy93/revision-quizzes/blob/master/reviquiz.sql), and connect it to the app by editing the credentials in the [`Db.class.php`](https://github.com/Lissy93/revision-quizzes/blob/master/php/Db.class.php) file.
+## Deployment 🚀
+It's a static PHP site. Just setup LAMP, upload the content of this repo to the www directory, then create a MySQL database, importing the SQL backup from [`reviquiz.sql`](https://github.com/Lissy93/revision-quizzes/blob/master/reviquiz.sql), and connect it to the app by editing the credentials in the [`Db.class.php`](https://github.com/Lissy93/revision-quizzes/blob/master/php/Db.class.php) file.
 
 ---
 
-## Report an Issue
+## Report an Issue 🐛
 ~~Found something that's not working? [Open an issue](https://github.com/Lissy93/revision-quizzes/issues/new/choose), and describe the problem, steps to reproduce alond with expected and actual output. If relevant, also include details about your environment. I'll try and fix / respond to any tickets within 48-hours.~~
 
 ---
 
-## Contributing
+## Contributing 👥
 ~~Contributions of any kind are very welcome, and would be much appreiciated.
 For Code of Conduct, see [Contributor Convent](https://www.contributor-covenant.org/version/2/1/code_of_conduct/).~~
 
@@ -60,7 +71,7 @@ For Code of Conduct, see [Contributor Convent](https://www.contributor-covenant.
 
 ---
 
-## License
+## License 📜
 
 > _**[Lissy93/revision-quizzes](https://github.com/Lissy93/revision-quizzes)** is licensed under [MIT](https://gist.github.com/Lissy93/143d2ee01ccc5c052a17) © [Alicia Sykes](https://aliciasykes.com) 2010._<br>
 > <sup align="right">For information, see <a href="https://tldrlegal.com/license/mit-license">TLDR Legal > MIT</a></sup>
